@@ -7,7 +7,7 @@ use App\Repositories\PostRepository;
 
 class PostRepositoryTest extends TestCase
 {
-    use DatabaseTransactions;
+//    use DatabaseTransactions;
     
     /**
      * A basic test example.
@@ -18,7 +18,7 @@ class PostRepositoryTest extends TestCase
     {
         $this->assertTrue(true);
     }
-
+/*
     public function testGetLatest3Posts()
     {
         factory(\App\Post::class, 100)->create();
@@ -28,5 +28,5 @@ class PostRepositoryTest extends TestCase
         $actual = $target->getLatest3Posts()->count();
 
         $this->assertEquals($expected, $actual);
-    }
+    }*/
 }

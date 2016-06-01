@@ -6,7 +6,7 @@
  * Time: 上午2:26
  */
 
-namespace app\Services;
+namespace App\Services;
 use App\Services\PasswordGeneratorHelper;
 
 class PasswordGeneratorService
@@ -26,7 +26,7 @@ class PasswordGeneratorService
      * @param int $length
      * @return string
      */
-    public function generate(string $origin, int $length)
+    public function generate(string $origin, int $length) : string
     {
         $target = $this->passwordGeneratorHelper->str_shuffle($origin);
 //        var_dump($target);

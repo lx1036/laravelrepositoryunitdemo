@@ -6,7 +6,7 @@
  * Time: 上午2:31
  */
 
-namespace app\Services;
+namespace App\Services;
 
 
 class PasswordGeneratorHelper
